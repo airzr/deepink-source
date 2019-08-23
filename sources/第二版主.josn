@@ -1,1 +1,101 @@
-
+{
+  "name": "第二版主",
+  "version": 100,
+  "category": 1,
+  "url": "http://m.banzhuer.org/",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["a:nth-child(2)"],
+    "author": [".wrapper small"],
+    "cover": [".wrapper > p img@attr->src"],
+    "summary": [".wrapper > p"],
+    "category": [""],
+    "status": [""],
+    "update": [""],
+    "lastChapter": [""],
+    "link": ["a:nth-child(1)@attr->href"],
+    "catalog": [".wrapper > p > a:nth-child(7)@attr->href"]
+  },
+  "catalog": {
+    "list": ".nav span:has(a)",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#content"
+  },
+  "search": {
+    "link": "http://m.banzhuer.org//modules/article/search.php?searchkey=${key}",
+    "list": ".clearfix:nth-child(6) li"
+  },  
+  "rank": {
+    "link": [      
+      {
+        "name": "总点击榜",
+        "link": "http://m.banzhuer.org/top/allvisit_1/"
+      },
+      {
+        "name": "周点击榜",
+        "link": "http://m.banzhuer.org/top/weekvisit_1/"
+      },
+      {
+        "name": "月点击榜",
+        "link": "http://m.banzhuer.org/top/monthvisit_1/"
+      },
+      {
+        "name": "最新入库",
+        "link": "http://www.yaochixs.com/top/postdate/"
+      },
+      {
+        "name": "玄幻小说",
+        "link": "http://m.banzhuer.org/sort/1_1/"
+      },
+      {
+        "name": "修真小说",
+        "link": "http://m.banzhuer.org/sort/2_1/"
+      },
+      {
+        "name": "都市小说",
+        "link": "http://m.banzhuer.org/sort/3_1/"
+      },
+      {
+        "name": "网游小说",
+        "link": "http://m.banzhuer.org/sort/4_1/"
+      },
+      {
+        "name": "精品小说",
+        "link": "http://m.banzhuer.org/sort/5_1/"
+      },
+      {
+        "name": "科幻小说",
+        "link": "http://m.banzhuer.org/sort/6_1/"
+      },
+      {
+        "name": "其他小说",
+        "link": "http://m.banzhuer.org/sort/7_1/"
+      }
+    ],
+    "list": ".nav span",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "1.html",
+      "next": "${index}.html"
+    }
+  }
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
