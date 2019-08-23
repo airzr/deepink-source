@@ -1,5 +1,6 @@
-# B00KS0URCE(NSFW)
+# 厚墨书源
 
+# 仓库地址：https://raw.githubusercontent.com/airzr/deepink-source/master/repository.json
 
 ##### 目前已收录
 
