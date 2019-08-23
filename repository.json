@@ -80,7 +80,15 @@
       "category": 1,
       "rank": 7,
       "auth": false,
-      "version": 102    
+      "version": 102   
+    }
+    {
+      "name": "第二版主",
+      "url": "http://m.banzhuer.org/",
+      "category": 1,
+      "rank": 12,
+      "auth": false,
+      "version": 100   
     }
   ]
 }
