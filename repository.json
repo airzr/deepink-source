@@ -1,0 +1,86 @@
+{
+  "name": "R18",
+  "summary": "NSFW",
+  "list": [
+    {
+      "name": "疯情书库",
+      "url": "https://m.aaread.club",
+      "category": 1,
+      "rank": 8,
+      "auth": false,
+      "version": 100  
+    },
+    {
+      "name": "94小说",
+      "url": "http://www.94xsw.info",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100    
+    },
+    {
+      "name": "龙腾小说",
+      "url": "http://www.8qwx.com",
+      "category": 1,
+      "rank": 20,
+      "auth": false,
+      "version": 101    
+    },
+    {
+      "name": "一起色",
+      "url": "http://www.s5217.net",
+      "category": 1,
+      "rank": 7,
+      "auth": false,
+      "version": 100    
+    },
+    {
+      "name": "易读网",
+      "url": "http://www.yidudu1.com",
+      "category": 1,
+      "rank": 8,
+      "auth": false,
+      "version": 100    
+    },
+    {
+      "name": "我的书阁",
+      "url": "http://www.myshuge.org",
+      "category": 1,
+      "rank": 10,
+      "auth": false,
+      "version": 100    
+    },
+    {
+      "name": "大漠阁",
+      "url": "http://www.damoge.cc",
+      "category": 1,
+      "rank": 7,
+      "auth": false,
+      "version": 103    
+    },
+    {
+      "name": "海岸线文学",
+      "url": "http://www.haxwx.cc",
+      "category": 1,
+      "rank": 15,
+      "auth": false,
+      "version": 101    
+    },
+    {
+      "name": "瑶池小说",
+      "url": "http://www.yaochixs.com",
+      "category": 1,
+      "rank": 13,
+      "auth": false,
+      "version": 101    
+    },
+    {
+      "name": "牛杂文学",
+      "url": "https://www.nzwxw.com",
+      "category": 1,
+      "rank": 7,
+      "auth": false,
+      "version": 102    
+    }
+  ]
+}
