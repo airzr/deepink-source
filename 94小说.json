@@ -1,0 +1,35 @@
+{
+  "name": "94小说",
+  "version": 100,
+  "category": 1,
+  "url": "http://www.94xsw.info",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["h3 > a"],
+    "author": ["p:nth-child(3) > i:nth-child(1)"],
+    "cover": ["a img@attr->src"],
+    "summary": ["p:nth-child(5)"],
+    "category": [""],
+    "status": ["p:nth-child(3) > i:nth-child(2)"],
+    "update": [".item-pic p:nth-child(4) > i:nth-child(2)"],
+    "lastChapter": ["p:nth-child(4) a"],
+    "link": ["h3 > a@attr->href"],
+    "catalog": [".b-orange:nth-child(2)@attr->href"]
+  },
+  "catalog": {
+    "list": ".chapterlist dd",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#BookText",
+    "filter": ["@p", "@a"]
+  },
+  "search": {
+    "link": "http://www.94xsw.info/modules/article/search.php?searchkey=${key}",
+    "list": ".item-pic"
+  }
+}

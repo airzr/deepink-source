@@ -1,0 +1,97 @@
+{
+  "name": "瑶池小说",
+  "version": 101,
+  "category": 1,
+  "url": "http://www.yaochixs.com",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["a:nth-child(2)"],
+    "author": [".wrapper small"],
+    "cover": [".wrapper > p img@attr->src"],
+    "summary": [".wrapper > p"],
+    "category": [""],
+    "status": [""],
+    "update": [""],
+    "lastChapter": [""],
+    "link": ["a:nth-child(1)@attr->href"],
+    "catalog": [".wrapper > p > a:nth-child(7)@attr->href"]
+  },
+  "catalog": {
+    "list": ".nav span:has(a)",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#content"
+  },
+  "search": {
+    "link": "http://yaochixs.com/modules/article/search.php?searchkey=${key}",
+    "list": ".clearfix:nth-child(6) li"
+  },  
+  "rank": {
+    "link": [      
+      {
+        "name": "总点击榜",
+        "link": "http://www.yaochixs.com/top/allvisit/"
+      },
+      {
+        "name": "周点击榜",
+        "link": "http://www.yaochixs.com/top/weekvisit/"
+      },
+      {
+        "name": "总推荐榜",
+        "link": "http://www.yaochixs.com/top/allvote/"
+      },
+      {
+        "name": "字数排行",
+        "link": "http://www.yaochixs.com/top/size/"
+      },
+      {
+        "name": "总收藏榜",
+        "link": "http://www.yaochixs.com/top/goodnum/"
+      },
+      {
+        "name": "最新入库",
+        "link": "http://www.yaochixs.com/top/postdate/"
+      },
+      {
+        "name": "玄幻奇幻",
+        "link": "http://www.yaochixs.com/list/1_"
+      },
+      {
+        "name": "武侠仙侠",
+        "link": "http://www.yaochixs.com/list/2_"
+      },
+      {
+        "name": "都市异能",
+        "link": "http://www.yaochixs.com/list/3_"
+      },
+      {
+        "name": "历史军事",
+        "link": "http://www.yaochixs.com/list/4_"
+      },
+      {
+        "name": "侦探推理",
+        "link": "http://www.yaochixs.com/list/5_"
+      },
+      {
+        "name": "网游动漫",
+        "link": "http://www.yaochixs.com/list/6_"
+      },
+      {
+        "name": "科幻小说",
+        "link": "http://www.yaochixs.com/list/7_"
+      }
+    ],
+    "list": ".nav span",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "1.html",
+      "next": "${index}.html"
+    }
+  }
+}

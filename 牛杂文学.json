@@ -1,0 +1,73 @@
+{
+  "name": "牛杂文学",
+  "version": 102,
+  "category": 1,
+  "url": "https://www.nzwxw.com",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["td:nth-child(1) a", "td:nth-child(3) > a"],
+    "author": ["td:nth-child(3)", "td:nth-child(5)"],
+    "cover": ["#tab1 > .img_wrap img@attr->src"],
+    "summary": [".mlist"],
+    "category": [""],
+    "status": ["td:nth-child(6)"],
+    "update": ["td:nth-child(5)@attr->content", "td:nth-child(6)@attr->content"],
+    "lastChapter": ["td:nth-child(2) a@attr->content", "td:nth-child(4)@attr->content"],
+    "link": ["td:nth-child(1) a@attr->href", "td:nth-child(3) > a@attr->href"],
+    "catalog": [".pic325 a:nth-child(1)@attr->href"]
+  },
+  "catalog": {
+    "list": ".dir_main_section li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#inner"
+  },
+  "search": {
+    "link": "https://www.nzwxw.com/modules/article/search.php?searchkey=${key}",
+    "list": "#content > .grid tr:has(td)"
+  },  
+  "rank": {
+    "link": [
+      {
+        "name": "总排行榜",
+        "link": "https://www.nzwxw.com/top/allvisit"
+      },
+      {
+        "name": "总推荐榜",
+        "link": "https://www.nzwxw.com/top/allvote"
+      },
+      {
+        "name": "月排行榜",
+        "link": "https://www.nzwxw.com/top/monthvisit"
+      },
+      {
+        "name": "周排行榜",
+        "link": "https://www.nzwxw.com/top/weekvisit"
+      },
+      {
+        "name": "最近更新",
+        "link": "https://www.nzwxw.com/top/lastupdate"
+      },
+      {
+        "name": "总收藏榜",
+        "link": "https://www.nzwxw.com/top/goodnum"
+      },
+      {
+        "name": "字数排行",
+        "link": "https://www.nzwxw.com/top/size"
+      }
+    ],
+    "list": "#idtr tr:has(td)",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "_1.html",
+      "next": "_${index}.html"
+    }
+  }
+}
