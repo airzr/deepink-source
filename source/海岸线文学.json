@@ -1,0 +1,105 @@
+{
+  "name": "海岸线文学",
+  "version": 101,
+  "category": 1,
+  "url": "http://www.haxwx.cc",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["h3 a", ".s2 > a"],
+    "author": ["p i:nth-child(1)", ".s3"],
+    "cover": ["a img@attr->src", ".book-img img@attr->src"],
+    "summary": ["p:nth-child(5)", ".book-intro"],
+    "category": ["s.fl a:nth-child(3)", "span:nth-child(1) > a:nth-child(1)", ".s1"],
+    "status": ["p:nth-child(3) i:nth-child(2)", ".s5"],
+    "update": ["p:nth-child(4) i:nth-child(2)", ".s4"],
+    "lastChapter": ["i a"],
+    "link": ["h3 a@attr->href", ".s2 > a@attr->href"],
+    "catalog": [""]
+  },
+  "catalog": {
+    "list": ".chapterlist dd:has(a)",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#BookText"
+  },
+  "search": {
+    "link": "http://www.haxwx.cc/modules/article/search.php?searchkey=${key}",
+    "list": ".details div:has(a)"
+  },  
+  "rank": {
+    "link": [      
+      {
+        "name": "总点击榜",
+        "link": "http://www.haxwx.cc/top/allvisit_"
+      },
+      {
+        "name": "周点击榜",
+        "link": "http://www.haxwx.cc/top/weekvisit_"
+      },
+      {
+        "name": "总推荐榜",
+        "link": "http://www.haxwx.cc/top/allvote_"
+      },
+      {
+        "name": "字数排行",
+        "link": "http://www.haxwx.cc/top/size_"
+      },
+      {
+        "name": "总收藏榜",
+        "link": "http://www.haxwx.cc/top/goodnum_"
+      },
+      {
+        "name": "最新入库",
+        "link": "http://www.haxwx.cc/top/postdate_"
+      },
+      {
+        "name": "玄幻奇幻",
+        "link": "http://www.haxwx.cc/fenlei/1/"
+      },
+      {
+        "name": "武侠仙侠",
+        "link": "http://www.haxwx.cc/fenlei/2/"
+      },
+      {
+        "name": "都市异能",
+        "link": "http://www.haxwx.cc/fenlei/3/"
+      },
+      {
+        "name": "历史军事",
+        "link": "http://www.haxwx.cc/fenlei/4/"
+      },
+      {
+        "name": "侦探推理",
+        "link": "http://www.haxwx.cc/fenlei/5/"
+      },
+      {
+        "name": "网游动漫",
+        "link": "http://www.haxwx.cc/fenlei/6/"
+      },
+      {
+        "name": "科幻小说",
+        "link": "http://www.damoge.cc/fenlei/7/"
+      },
+      {
+        "name": "恐怖灵异",
+        "link": "http://www.haxwx.cc/fenlei/8/"
+      },
+      {
+        "name": "其他类型",
+        "link": "http://www.haxwx.cc/fenlei/10/"
+      }
+    ],
+    "list": ".item-con li",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "1.html",
+      "next": "${index}.html"
+    }
+  }
+}

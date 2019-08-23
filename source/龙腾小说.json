@@ -1,0 +1,122 @@
+{
+  "name": "龙腾小说",
+  "version": 101,
+  "category": 1,
+  "url": "http://www.8qwx.com",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["h2 > a"],
+    "author": [".title span@js->${this}.replace('作者：','')"],
+    "cover": [".pic img@attr->src"],
+    "summary": [".intro"],
+    "category": [""],
+    "status": [""],
+    "update": [""],
+    "lastChapter": ["li a@attr->content"],
+    "link": ["h2 > a@attr->href"],
+    "catalog": [""]
+  },
+  "catalog": {
+    "list": "#index li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#content",
+    "filter": ["@a", "@b"]
+  },
+  "search": {
+    "link": "http://www.8qwx.com/modules/article/search.php?searchkey=${key}",
+    "list": "#alistbox"
+  },  
+  "rank": {
+    "link": [
+      {
+        "name": "乡村小说",
+        "link": "http://www.8qwx.com/1"
+      },
+      {
+        "name": "玄幻小说",
+        "link": "http://www.8qwx.com/2"
+      },
+      {
+        "name": "仙侠小说",
+        "link": "http://www.8qwx.com/3"
+      },
+      {
+        "name": "都市小说",
+        "link": "http://www.8qwx.com/4"
+      },
+      {
+        "name": "历史小说",
+        "link": "http://www.8qwx.com/5"
+      },
+      {
+        "name": "悬疑小说",
+        "link": "http://www.8qwx.com/6"
+      },
+      {
+        "name": "网游小说",
+        "link": "http://www.8qwx.com/7"
+      },
+      {
+        "name": "灵异小说",
+        "link": "http://www.8qwx.com/8"
+      },
+      {
+        "name": "耽美小说",
+        "link": "http://www.8qwx.com/9"
+      },
+      {
+        "name": "其他小说",
+        "link": "http://www.8qwx.com/10"
+      },
+      {
+        "name": "最近更新",
+        "link": "http://www.8qwx.com/lastupdate"
+      },
+      {
+        "name": "最新新书",
+        "link": "http://www.8qwx.com/postdate"
+      },
+      {
+        "name": "日点击榜",
+        "link": "http://www.8qwx.com/dayvisit"
+      },
+      {
+        "name": "周点击榜",
+        "link": "http://www.8qwx.com/weekvisit"
+      },
+      {
+        "name": "月点击榜",
+        "link": "http://www.8qwx.com/monthvisit"
+      },
+      {
+        "name": "总点击榜",
+        "link": "http://www.8qwx.com/allvisit"
+      },
+      {
+        "name": "总推荐榜",
+        "link": "http://www.8qwx.com/allvote"
+      },
+      {
+        "name": "字数排行",
+        "link": "http://www.8qwx.com/size"
+      },
+      {
+        "name": "总收藏榜",
+        "link": "http://www.8qwx.com/goodnum"
+      }
+    ],
+    "list": "#alistbox",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "_1/",
+      "next": "_${index}/"
+    }
+  }
+}

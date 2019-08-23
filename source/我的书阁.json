@@ -1,0 +1,85 @@
+{
+  "name": "我的书阁",
+  "version": 100,
+  "category": 1,
+  "url": "http://www.myshuge.org",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["td:nth-child(1) a", ".title h2 a"],
+    "author": ["td:nth-child(3)", ".title span@js->${this}.replace('作者：','')"],
+    "cover": [".img_in img@attr->src", ".pic img@attr->src"],
+    "summary": ["#aboutbook", ".intro"],
+    "category": ["a.typename"],
+    "status": ["td:nth-child(6)"],
+    "update": ["td:nth-child(5)@attr->content"],
+    "lastChapter": ["td:nth-child(2)@attr->content"],
+    "link": ["td:nth-child(1) a@attr->href", ".title h2 a@attr->href"],
+    "catalog": [""]
+  },
+  "catalog": {
+    "list": ".zjbox dd:has(a)",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#content"
+  },
+  "search": {
+    "link": "http://www.myshuge.org/modules/article/search.php?searchtype=articlename&searchkey=${key}",
+    "list": ".grid tr:has(td)"
+  },  
+  "rank": {
+    "link": [
+      {
+        "name": "玄幻",
+        "link": "http://www.myshuge.org/sort1"
+      },
+      {
+        "name": "科幻",
+        "link": "http://www.myshuge.org/sort2"
+      },
+      {
+        "name": "都市",
+        "link": "http://www.myshuge.org/sort3"
+      },
+      {
+        "name": "校园",
+        "link": "http://www.myshuge.org/sort4"
+      },
+      {
+        "name": "同人",
+        "link": "http://www.myshuge.org/sort5"
+      },
+      {
+        "name": "家园",
+        "link": "http://www.myshuge.org/sort6"
+      },
+      {
+        "name": "精品",
+        "link": "http://www.myshuge.org/sort7"
+      },
+      {
+        "name": "古典",
+        "link": "http://www.myshuge.org/sort8"
+      },
+      {
+        "name": "小甜甜文",
+        "link": "http://www.myshuge.org/sort9"
+      },
+      {
+        "name": "其他小说",
+        "link": "http://www.myshuge.org/sort10"
+      }
+    ],
+    "list": "#alistbox",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "/1/",
+      "next": "/${index}/"
+    }
+  }
+}

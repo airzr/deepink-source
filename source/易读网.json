@@ -1,0 +1,77 @@
+{
+  "name": "易读网",
+  "version": 100,
+  "category": 1,
+  "url": "http://www.yidudu1.com",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["h2 > a", ".title .t a"],
+    "author": [".state a:nth-child(1)", ".author a"],
+    "cover": [".pic img@attr->src", ".p_box img.lazy@attr->src"],
+    "summary": [".jianjie", ".j_box .words a"],
+    "category": [".state a:nth-child(2)", ".c > a"],
+    "status": ["li.wj", ".abover"],
+    "update": ["#cms_favorites", ".time"],
+    "lastChapter": [".title .n a"],
+    "link": ["h2 > a@attr->href", ".title .t a@attr->href"],
+    "catalog": ["a.yd@attr->href"]
+  },
+  "catalog": {
+    "list": ".box_box li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".box_box"
+  },
+  "search": {
+    "link": "http://www.yidudu1.com/so/?fuck=subject&searchword=${key}",
+    "list": "#main li"
+  },  
+  "rank": {
+    "link": [
+      {
+        "name": "更新列表",
+        "link": "http://www.yidudu1.com/shuku_47"
+      },
+      {
+        "name": "奇幻玄幻",
+        "link": "http://www.yidudu1.com/qihuan/shuku_15"
+      },
+      {
+        "name": "武侠仙侠",
+        "link": "http://www.yidudu1.com/wuxia/shuku_7"
+      },
+      {
+        "name": "都市青春",
+        "link": "http://www.yidudu1.com/dushi/shuku_10"
+      },
+      {
+        "name": "历史穿越",
+        "link": "http://www.yidudu1.com/lishi/shuku_3"
+      },
+      {
+        "name": "山野乡村",
+        "link": "http://www.yidudu1.com/kehuan/shuku_1"
+      },
+      {
+        "name": "经典H文",
+        "link": "http://www.yidudu1.com/youxi/shuku_11"
+      },
+      {
+        "name": "全本小说",
+        "link": "http://www.yidudu1.com/quanben/shuku_10"
+      }
+    ],
+    "list": ".ul_m_list li",
+    "page": {
+      "index": 1,
+      "limit": 52,
+      "begin": "_1.html",
+      "next": "_${index}.html"
+    }
+  }
+}

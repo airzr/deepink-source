@@ -1,0 +1,78 @@
+{
+  "name": "大漠阁",
+  "version": 103,
+  "category": 1,
+  "url": "http://www.damoge.cc",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["h2 a", "h3 a"],
+    "author": [".infos span:nth-child(1) a", "a:nth-child(2)@js->${this}.replace('作品','')"],
+    "cover": [".pic img@attr->src", ".pic img@attr->src"],
+    "summary": ["p", ".intro"],
+    "category": ["span:nth-child(4)@js->${this}.replace('类别：','')", "span:nth-child(1) > a:nth-child(1)"],
+    "status": ["span:nth-child(3)@js->${this}.replace('状态：','')"],
+    "update": [""],
+    "lastChapter": [""],
+    "link": ["h2 a@attr->href", "h3 a@attr->href"],
+    "catalog": [""]
+  },
+  "catalog": {
+    "list": ".book_list li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".contentbox",    
+    "next": {
+      "link": "a[href$=_2.html]@attr->href",
+      "text": "下一章"
+    },
+    "filter": ["@strong", "@div", "@font"]
+  },
+  "search": {
+    "link": "http://www.damoge.cc/plus/search.php?kwtype=0&searchtype=&q=${key}",
+    "list": "div.so"
+  },  
+  "rank": {
+    "link": [      
+      {
+        "name": "首页",
+        "link": "http://www.damoge.cc"
+      },
+      {
+        "name": "玄幻魔幻",
+        "link": "http://www.damoge.cc/xuanhuan.html"
+      },
+      {
+        "name": "仙侠武侠",
+        "link": "http://www.damoge.cc/xianxia.html"
+      },
+      {
+        "name": "言情都市",
+        "link": "http://www.damoge.cc/yanqing.html"
+      },
+      {
+        "name": "穿越历史",
+        "link": "http://www.damoge.cc/chuanyue.html"
+      },
+      {
+        "name": "科幻灵异",
+        "link": "http://www.damoge.cc/kehuan.html"
+      },
+      {
+        "name": "网游同人",
+        "link": "http://www.damoge.cc/wangyou.html"
+      }
+    ],
+    "list": "#cols-2 li",
+    "page": {
+      "index": 1,
+      "limit": 100,
+      "begin": "",
+      "next": ""
+    }
+  }
+}
