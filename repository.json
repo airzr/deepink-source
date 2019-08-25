@@ -89,6 +89,13 @@
       "rank": 12,
       "auth": false,
       "version": 100   
-    }
+    },
+    {
+      "name": "腐文小说网",
+      "url": "https://www.u6k6.com/",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100   
   ]
 }
