@@ -1,0 +1,61 @@
+ { 
+
+     "name": "腐文小说网",     
+
+     "version": 100,     
+
+     "category": 1,
+
+     "url": "https://www.u6k6.com/",
+
+     "charset": "gbk",
+
+     "metadata": {
+
+         "name": ["td.odd > a"],
+
+         "author": ["td:nth-child(3)"],
+
+         "summary": ["","#intro"],
+
+         "status": ["td:nth-child(6)"],
+
+         "update": ["td:nth-child(5)"],
+
+         "lastChapter": ["td:nth-child(2) > a"],
+
+         "link": ["td.odd > a@attr->href"]
+
+     },
+
+     "catalog": {
+
+         "list": "#list > dl > dd:nth-child(n+11)",
+
+         "orderBy": 0,
+
+         "chapter": {
+
+             "name": "a",
+
+             "link": "a@attr->href"
+
+         }
+
+     },
+
+     "content": {
+
+         "text": "#content"
+
+     },
+
+     "search": {
+
+         "link": "https://www.u6k6.com/modules/article/search.php@post->searchkey=${key}&searchtype=articlename",
+
+         "list": "#nr"
+
+     }
+
+ }
