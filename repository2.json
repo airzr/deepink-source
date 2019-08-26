@@ -1,1 +1,15 @@
 
+{
+  "name": "期刊",
+  "summary": "NSFW",
+  "list": [
+    {
+      "name": "参考网",
+      "url": "http://www.fx361.com",
+      "category": 0,
+      "rank": 26,
+      "auth": false,
+      "version": 101 
+    }
+ ]
+}
