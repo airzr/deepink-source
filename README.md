@@ -1,4 +1,4 @@
-# 杂志：http://lab.homo.andyt.cn:88/h2m/repository.json
+##### 杂志：http://lab.homo.andyt.cn:88/h2m/repository.json
 ##### 目前已收录
 
 | 书源 | API | 类型 | 排行榜 | 版本 | 备注 |
