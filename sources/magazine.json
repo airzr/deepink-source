@@ -2,7 +2,7 @@
   "catalog":{"chapter":{"link":"li>a@attr->href","name":"li>a"},"list":"li","orderBy":0},
   "category":0,
   "charset":"utf-8",
-  "ontent":{"filter":["@dfn","@span","@bdi","@small","@b","@mark","@var","@bdo","@big","@sub","@code","@i","@em","@ins","@cite","@samp","@strong"],"text":"body"},
+  "content":{"filter":["@dfn","@span","@bdi","@small","@b","@mark","@var","@bdo","@big","@sub","@code","@i","@em","@ins","@cite","@samp","@strong"],"text":"body"},
   "metadata":{
        "author":["p.3"],
        "catalog":[],
@@ -41,7 +41,7 @@
        ],          
      "list":"li"
       },
-  "magazine",
+  "magazine"
   "version":103
 }
 
