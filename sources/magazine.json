@@ -1,37 +1,75 @@
 {
-      "catalog":{"chapter":{"link":"li>a@attr->href","name":"li>a"},"list":"li","orderBy":0},
-      "category":0,
-      "charset":"utf-8",
-      "ontent":{"filter":["@dfn","@span","@bdi","@small","@b","@mark","@var","@bdo","@big","@sub","@code","@i","@em","@ins","@cite","@samp","@strong"],"text":"body"},
-      "metadata":{"author":["p.3"],"catalog":[],"category":["p.2"],"cover":["img@attr->src"],"lastChapter":[],"link":["a@attr->href"],"name":["a"],"status":["a@js->'完结'"],"summary":["p.1"],"update":[]},
-      "name":"magazine",
-      "rank":{"link":[
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=ea265b17-0d79-4240-b3db-0b4cf94de08b","name":"读者"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=7E788766-77A0-4093-B1F1-E3F55DD55137","name":"意林"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=b798873b-d46e-484c-a743-c9915f5a6165","name":"扣篮"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=08DC3C17-262E-4F58-B7D9-932AB966E582","name":"故事会"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=95ad621a-64c6-4535-a0b1-7168523387d7","name":"故事林"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=65545C2E-BB1C-4F32-8CDF-5995EF0BD73F","name":"看天下"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=f4874cd0-238c-4e01-9295-e5a5dc1e8c6b","name":"新青年"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=5e1a40e6-d9ab-439c-a851-615abf6a3a23","name":"智族GQ"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=322145c8-6f78-49b6-b72e-9a128a3a50e3","name":"环球人物"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=04453217-aa95-410c-90d3-3a73079ee68a","name":"科幻世界"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=b4f38850-dda4-4559-a1a7-59479a2e05e6","name":"读者欣赏"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=9e236705-8f62-4007-9dc6-0ce02ae32a4c","name":"读者校园"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=4fd8f670-f98d-459d-8263-044f6d5e4d4a","name":"意林原创"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=9015a0e8-eca9-4560-9c5e-317420aee8f5","name":"新闻周刊"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=e29202e8-f6a9-4001-93cc-a6d383b505c7","name":"南方人物"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=175f46d3-3f5f-4f81-be66-c80ca5b809da","name":"知音海外上"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=ce4008ad-37e1-4e33-b392-4956e54c782d","name":"知音海外下"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=048e8141-5aa7-4423-83c0-5e93439bd8e6","name":"知音上半月"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=d2635bc7-e2ad-412d-b01b-23224c1a0552","name":"知音下半月"},
-                       {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=5d99c3e8-32a3-4709-a263-bf2371314b65","name":"知音月末版"}
-                             ],          
-                       "list":"li"
-                  },
-       "magazine",
-       "version":103
+  "catalog":{"chapter":{"link":"li>a@attr->href","name":"li>a"},"list":"li","orderBy":0},
+  "category":0,
+  "charset":"utf-8",
+  "ontent":{"filter":["@dfn","@span","@bdi","@small","@b","@mark","@var","@bdo","@big","@sub","@code","@i","@em","@ins","@cite","@samp","@strong"],"text":"body"},
+  "metadata":{
+       "author":["p.3"],
+       "catalog":[],
+       "category":["p.2"],
+       "cover":["img@attr->src"],
+       "lastChapter":[],
+       "link":["a@attr->href"],
+       "name":["a"],
+       "status":["a@js->'完结'"],
+       "summary":["p.1"],
+       "update":[]
+    },
+ "name":"magazine",
+ "rank":{
+       "link":[
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=ea265b17-0d79-4240-b3db-0b4cf94de08b","name":"读者"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=7E788766-77A0-4093-B1F1-E3F55DD55137","name":"意林"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=b798873b-d46e-484c-a743-c9915f5a6165","name":"扣篮"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=08DC3C17-262E-4F58-B7D9-932AB966E582","name":"故事会"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=95ad621a-64c6-4535-a0b1-7168523387d7","name":"故事林"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=65545C2E-BB1C-4F32-8CDF-5995EF0BD73F","name":"看天下"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=f4874cd0-238c-4e01-9295-e5a5dc1e8c6b","name":"新青年"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=5e1a40e6-d9ab-439c-a851-615abf6a3a23","name":"智族GQ"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=322145c8-6f78-49b6-b72e-9a128a3a50e3","name":"环球人物"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=04453217-aa95-410c-90d3-3a73079ee68a","name":"科幻世界"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=b4f38850-dda4-4559-a1a7-59479a2e05e6","name":"读者欣赏"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=9e236705-8f62-4007-9dc6-0ce02ae32a4c","name":"读者校园"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=4fd8f670-f98d-459d-8263-044f6d5e4d4a","name":"意林原创"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=9015a0e8-eca9-4560-9c5e-317420aee8f5","name":"新闻周刊"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=e29202e8-f6a9-4001-93cc-a6d383b505c7","name":"南方人物"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=175f46d3-3f5f-4f81-be66-c80ca5b809da","name":"知音海外上"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=ce4008ad-37e1-4e33-b392-4956e54c782d","name":"知音海外下"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=048e8141-5aa7-4423-83c0-5e93439bd8e6","name":"知音上半月"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=d2635bc7-e2ad-412d-b01b-23224c1a0552","name":"知音下半月"},
+           {"link":"http://lab.homo.andyt.cn:88/h2m/magazine.php?key=5d99c3e8-32a3-4709-a263-bf2371314b65","name":"知音月末版"}
+       ],          
+     "list":"li"
+      },
+  "magazine",
+  "version":103
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
