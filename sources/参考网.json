@@ -1,0 +1,108 @@
+{
+  "name": "参考网(军事)",
+  "version": 100,
+  "category": 0,
+  "url": "http://www.fx361.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["span:nth-of-type(2)",".upt"],
+    "author": ["span:nth-of-type(1)",".til"],
+    "cover": ["img@attr->src",".fm img@attr->src"],
+    "summary": [".rec"],
+    "category": ["a@js->'杂志'"],
+    "status": ["a@js->'完结'"],
+    "link": ["a[href~=html]@attr->href"]
+  },
+  "catalog": {
+    "list": ".dirItem02",
+    "orderBy": 0,
+    "booklet": {
+      "name": "h5",
+      "list": ".list_01 li"
+    },
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".txt~:not(div)"
+  },
+  "rank": {
+    "link": [
+      {
+        "name": "军工文化",
+        "link": "http://www.fx361.com/bk/jgwh/history_2019.html"
+      },
+      {
+        "name": "兵器知识",
+        "link": "http://www.fx361.com/bk/bqzs/history_2019.html"
+      },
+      {
+        "name": "轻兵器",
+        "link": "http://www.fx361.com/bk/qbq/history_2019.html"
+      },
+      {
+        "name": "兵器",
+        "link": "http://www.fx361.com/bk/bq/history_2018.html"
+      },
+      {
+        "name": "航空世界",
+        "link": "http://www.fx361.com/bk/hksj/history_2018.html"
+      },
+      {
+        "name": "现代兵器",
+        "link": "http://www.fx361.com/bk/xdbq/history_2018.html"
+      },
+      {
+        "name": "现代军事",
+        "link": "http://www.fx361.com/bk/xdjs/history_2016.html"
+      },
+      {
+        "name": "坦克装甲车辆·新军事",
+        "link": "http://www.fx361.com/bk/tkzjclxjs/history_2009.html"
+      },
+      {
+        "name": "航空兵器",
+        "link": "http://www.fx361.com/bk/hkbq/history_2019.html"
+      },
+      {
+        "name": "铁军",
+        "link": "http://www.fx361.com/bk/tj/history_2019.html"
+      },
+      {
+        "name": "黄埔",
+        "link": "http://www.fx361.com/bk/huangpu/history_2019.html"
+      },
+      {
+        "name": "军事文摘",
+        "link": "http://www.fx361.com/bk/jswz/history_2019.html"
+      },
+      {
+        "name": "小朋友·聪明学堂",
+        "link": "http://www.fx361.com/bk/xpycmxt/history_2019.html"
+      },
+      {
+        "name": "航空知识",
+        "link": "http://www.fx361.com/bk/hkzs/history_2019.html"
+      },
+      {
+        "name": "航空模型",
+        "link": "http://www.fx361.com/bk/hkmx/history_2018.html"
+      },
+      {
+        "name": "解放军生活",
+        "link": "http://www.fx361.com/bk/jfjsh/history_2018.html"
+      },
+      {
+        "name": "当代兵团",
+        "link": "http://www.fx361.com/bk/ddbintuan/history_2011.html"
+      },
+      {
+        "name": "坦克装甲车辆",
+        "link": "http://www.fx361.com/bk/tkzjcl/history_2009.html"
+      }
+    ],
+    "list": ".results li"
+  }
+}
