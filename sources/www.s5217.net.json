@@ -1,0 +1,74 @@
+{
+  "name": "一起色",
+  "version": 100,
+  "category": 1,
+  "url": "http://www.s5217.net",
+  "charset": "gbk",
+  "metadata": {
+    "name": [".odd:nth-child(1) a", "a.aname"],
+    "author": [".odd:nth-child(3)"],
+    "cover": [".divbox img@attr->src"],
+    "summary": [".gray:nth-child(4)", ".gray"],
+    "category": [""],
+    "status": [".even:nth-child(6)", ".aflag"],
+    "update": [".odd:nth-child(5)@attr->content"],
+    "lastChapter": [".even a@attr->content", "p:nth-child(2)@attr->content"],
+    "link": [".odd:nth-child(1) a@attr->href", "a.aname@attr->href"],
+    "catalog": [""]
+  },
+  "catalog": {
+    "list": "td.ccss",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#ccontent",
+    "filter": ["@p", "@font"]
+  },
+  "search": {
+    "link": "http://www.s5217.net/modules/article/search.php?searchtype=articlename&searchkey=${key}",
+    "list": ".grid tr"
+  },  
+  "rank": {
+    "link": [
+      {
+        "name": "总排行榜",
+        "link": "http://www.s5217.net/allvisit"
+      },
+      {
+        "name": "总推荐榜",
+        "link": "http://www.s5217.net/allvote"
+      },
+      {
+        "name": "月排行榜",
+        "link": "http://www.s5217.net/monthvisit"
+      },
+      {
+        "name": "周排行榜",
+        "link": "http://www.s5217.net/weekvisit"
+      },
+      {
+        "name": "最近更新",
+        "link": "http://www.s5217.net/postdate"
+      },
+      {
+        "name": "总收藏榜",
+        "link": "http://www.s5217.net/goodnum"
+      },
+      {
+        "name": "字数排行",
+        "link": "http://www.s5217.net/size"
+      }
+    ],
+    "list": ".ultwo li",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "-1.html",
+      "next": "-${index}.html"
+    }
+  }
+}
