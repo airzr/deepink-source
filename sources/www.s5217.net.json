@@ -2,9 +2,9 @@
   "name": "一起色",
   "version": 100,
   "category": 1,
-  "url": "http://www.s5217.net",
+  "url": "www.s5217.net",
   "charset": "gbk",
-  "metadata": {
+  "detail": {
     "name": [".odd:nth-child(1) a", "a.aname"],
     "author": [".odd:nth-child(3)"],
     "cover": [".divbox img@attr->src"],
